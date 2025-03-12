@@ -9,7 +9,7 @@ spring:
   application:
     name: ecom-application
   datasource:
-    url: jdbc:postgresql://localhost:5432/ecomdb
+    url: jdbc:postgresql://localhost:5432/embarkx
     username: embarkx
     password: embarkx
   jpa:
@@ -52,4 +52,3 @@ info:
     name: MyNewApp
     description: App built by us
     version: 1.0.0
-
