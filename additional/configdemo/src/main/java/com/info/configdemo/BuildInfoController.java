@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BuildInfoController {
 
-    @Value("${OS:default}")
+    @Value("${build.id:default}")
     private String buildId;
 
-    @Value("${PROCESSOR_LEVEL:default}")
+    @Value("${build.version:default}")
     private String buildVersion;
 
-    @Value("${JAVA_HOME:default}")
+    @Value("${build.name:default}")
     private String buildName;
 
     @GetMapping("/build-info")
