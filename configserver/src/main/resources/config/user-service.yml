@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: ${MONGO_URI}
+      database: ecom_user
+
+server:
+  port: 8082
