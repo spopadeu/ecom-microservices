@@ -1,4 +1,4 @@
-This is the Official repository of **Spring Boot Microservices with Spring Cloud, k8s & Docker** on Udemy
+This is the Official repository of **Spring Boot Microservices Professional eCommerce Masterclass** on Udemy
 
 # The Ultimate Java and Spring Boot Mastery
 
@@ -9,8 +9,8 @@ Welcome to your one-stop-shop for mastering Java and Spring Boot! This repositor
 Most of the courses below are available in **Udemy For Business**, so if you have subscription - you can get FREE access.
 Here’s a structured path to enhance your skills with detailed courses available:
 
-1. **[Spring Boot By Building Complex Projects Step by Step](https://link.embarkx.com/spring-boot) (50+ Hours of Content)**
-2. **[Master Spring Boot Microservices](https://link.embarkx.com/microservices) (23+ Hours of Content)**
+1. **[Spring Boot Full Stack By Building Complex Projects Step by Step](https://link.embarkx.com/spring-boot) (80+ Hours of Content)**
+2. **[Master Spring Boot Microservices](https://link.embarkx.com/microservices) (50+ Hours of Content)**
 3. **[Learn Java with 60+ Hours of Content](http://link.embarkx.com/java) (60+ Hours of Content)**
 4. **[Master Spring Security with React JS + OAuth2](https://link.embarkx.com/spring-security) (34+ Hours of Content)**
 5. **[Master IntelliJ IDEA](http://link.embarkx.com/intellij) (3+ Hours of Content)**
