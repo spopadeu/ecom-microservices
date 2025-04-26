@@ -6,12 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="61b7bedc-329b-4315-8b9b-f1023d8530dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/demo/consumer/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/demo/consumer/KafkaConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/demo/consumer/KafkaConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/demo/producer/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/com/demo/producer/KafkaProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/target/classes/com/demo/producer/KafkaProducer.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +62,11 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/FAISAL/Desktop/courses/embarkx/Microservices/ecom-microservices/additional/kafka/consumer/pom.xml&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demo.producer" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -65,7 +74,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConsumerApplication">
+  <component name="RunManager" selected="Application.ProducerApplication">
     <configuration name="ConsumerApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.demo.consumer.ConsumerApplication" />
       <module name="consumer" />
