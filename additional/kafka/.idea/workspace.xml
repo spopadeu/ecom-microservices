@@ -6,16 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="61b7bedc-329b-4315-8b9b-f1023d8530dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/demo/consumer/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/demo/consumer/KafkaConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/demo/consumer/KafkaConsumerNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/demo/consumer/KafkaConsumerNew.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/demo/consumer/KafkaConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/demo/producer/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/com/demo/producer/KafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/demo/producer/KafkaProducerStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/com/demo/producer/KafkaProducerStreams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/target/classes/com/demo/producer/KafkaProducer.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,15 +49,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ConsumerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProducerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/FAISAL/Desktop/courses/embarkx/Microservices/ecom-microservices/additional/kafka/consumer/pom.xml&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ConsumerApplication (1).executor": "Run",
+    "Application.ConsumerApplication.executor": "Run",
+    "Application.ProducerApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/FAISAL/Desktop/courses/embarkx/Microservices/ecom-microservices/additional/kafka/consumer/pom.xml"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.demo.producer" />
@@ -74,7 +71,21 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProducerApplication">
+  <component name="RunManager" selected="Application.ConsumerApplication">
+    <configuration name="ConsumerApplication (1)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.demo.consumer.ConsumerApplication" />
+      <module name="consumer" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=9091" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsumerApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.demo.consumer.ConsumerApplication" />
       <module name="consumer" />
@@ -101,6 +112,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ConsumerApplication" />
+      <item itemvalue="Application.ConsumerApplication (1)" />
+      <item itemvalue="Application.ProducerApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
