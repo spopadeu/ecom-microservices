@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61b7bedc-329b-4315-8b9b-f1023d8530dc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../configserver/src/main/resources/config/order-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../configserver/src/main/resources/config/order-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../notification/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../notification/src/main/java/com/ecommerce/notification/OrderEventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../notification/src/main/java/com/ecommerce/notification/OrderEventConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../notification/src/main/java/com/ecommerce/notification/RabbitMQConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../notification/src/main/java/com/ecommerce/notification/RabbitMQConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../notification/src/main/java/com/ecommerce/notification/RabbitMQConfiguration.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../notification/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../notification/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../notification/src/test/java/com/ecommerce/notification/NotificationApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../notification/src/test/java/com/ecommerce/notification/NotificationApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../order/src/main/java/com/ecommerce/order/config/RabbitMQConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../order/src/main/java/com/ecommerce/order/config/RabbitMQConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order/src/main/java/com/ecommerce/order/config/RabbitMQConfiguration.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../order/src/main/java/com/ecommerce/order/services/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../order/src/main/java/com/ecommerce/order/services/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
