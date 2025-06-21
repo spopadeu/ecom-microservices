@@ -1,5 +1,5 @@
 # Ignore all .env files everywhere
-.env
+deploy/docker/.env
 **/.env
 
 # Ignore all logs directories
