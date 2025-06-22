@@ -41,6 +41,8 @@ services:
     environment:
       KC_BOOTSTRAP_ADMIN_USERNAME: admin
       KC_BOOTSTRAP_ADMIN_PASSWORD: admin
+#      PROXY_ADDRESS_FORWARDING: "true"
+#      KEYCLOAK_FRONTEND_URL: "http://localhost:8443"
     command: [ "start-dev" ]
     networks:
       - backend
