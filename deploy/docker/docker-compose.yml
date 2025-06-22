@@ -156,6 +156,7 @@ services:
       - config-server
     networks:
       - backend
+    restart: on-failure
 
   user-service:
 #    build: ../../user
@@ -180,6 +181,7 @@ services:
       - config-server
     networks:
       - backend
+    restart: on-failure
 
   product-service:
 #    build: ../../product
@@ -205,6 +207,7 @@ services:
       - config-server
     networks:
       - backend
+    restart: on-failure
 
   order-service:
 #    build: ../../order
@@ -230,6 +233,7 @@ services:
       - config-server
     networks:
       - backend
+    restart: on-failure
 
 networks:
   backend:
