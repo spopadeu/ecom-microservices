@@ -2,6 +2,8 @@
 deploy/docker/.env
 **/.env
 
+.data
+
 # Ignore all logs directories
 logs/
 **/logs/
