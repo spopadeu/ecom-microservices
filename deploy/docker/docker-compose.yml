@@ -75,7 +75,7 @@ services:
     environment:
       KAFKA_BROKER_ID: 1
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
     depends_on:
       - zookeeper
@@ -145,7 +145,7 @@ services:
 #    build: ../../gateway
     image: ecom/gateway
     container_name: gateway
-    mem_limit: 700m
+#    mem_limit: 700m
     ports:
       - 8080:8080
     environment:
@@ -164,7 +164,7 @@ services:
 #    build: ../../user
     image: ecom/user-service
     container_name: user-service
-    mem_limit: 700m
+#    mem_limit: 700m
     ports:
       - 8082:8082
     environment:
@@ -227,6 +227,23 @@ services:
       - RABBITMQ_USERNAME=${RABBITMQ_USERNAME}
       - RABBITMQ_PASSWORD=${RABBITMQ_PASSWORD}
       - RABBITMQ_VHOST=${RABBITMQ_VHOST}
+    depends_on:
+      - mongo
+      - rabbitmq
+      - eureka
+      - keycloak
+      - config-server
+    networks:
+      - backend
+    restart: on-failure
+
+  notification-service:
+    #    build: ../../order
+    image: ecom/notification-service
+    container_name: notification-service
+    #    mem_limit: 700m
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
     depends_on:
       - mongo
       - rabbitmq
