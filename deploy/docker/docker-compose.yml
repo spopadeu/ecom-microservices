@@ -107,7 +107,7 @@ services:
 
   config-server:
 #    build: ../../configserver
-    image: ecom/config-server
+    image: dcode007/config-server
     container_name: config-server
     ports:
       - 8888:8888
@@ -130,7 +130,7 @@ services:
 
   eureka:
 #    build: ../../eureka
-    image: ecom/eureka-server
+    image: dcode007/eureka-server
     container_name: eureka
     ports:
       - 8761:8761
@@ -144,7 +144,7 @@ services:
 
   gateway-service:
 #    build: ../../gateway
-    image: ecom/gateway
+    image: dcode007/gateway-service
     container_name: gateway
 #    mem_limit: 700m
     ports:
@@ -164,7 +164,7 @@ services:
 
   user-service:
 #    build: ../../user
-    image: ecom/user-service
+    image: dcode007/user-service
     container_name: user-service
 #    mem_limit: 700m
     ports:
@@ -189,7 +189,7 @@ services:
 
   product-service:
 #    build: ../../product
-    image: ecom/product-service
+    image: dcode007/product-service
     container_name: product-service
 #    mem_limit: 700m
     ports:
@@ -215,7 +215,7 @@ services:
 
   order-service:
 #    build: ../../order
-    image: ecom/order-service
+    image: dcode007/order-service
     container_name: order-service
 #    mem_limit: 700m
     ports:
@@ -241,7 +241,7 @@ services:
 
   notification-service:
     #    build: ../../order
-    image: ecom/notification-service
+    image: dcode007/notification-service
     container_name: notification-service
     #    mem_limit: 700m
     environment:
